@@ -1,0 +1,32 @@
+@font-face {
+    font-family: iranyekan;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../Fonts/iranyekan/eot/iranyekanwebregular\(fanum/).eot');
+    src: url('../Fonts/iranyekan/ttf/iranyekanwebregular\(fanum\).ttf'),
+    url('../Fonts/iranyekan/woff/iranyekanweblight\(fanum\).woff'),
+    url('../Fonts/iranyekan/woff2/iranyekanwebregular\(fanum\).woff2');
+}
+
+*{
+    font-family:iranyekan ;
+}
+body{
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.header ul li a:hover{
+    color: greenyellow;
+    border-bottom: 1px solid greenyellow;
+}
+
+.main{
+    margin-bottom: 75px;
+}
